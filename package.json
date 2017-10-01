@@ -2,7 +2,7 @@
   "name": "educhain",
   "version": "0.0.1",
   "description": "educhain ",
-  "main": "index.js",
+  "main": "truffle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/blockedutech/educhain/issues"
   },
-  "homepage": "https://github.com/blockedutech/educhain#readme"
+  "homepage": "https://github.com/blockedutech/educhain#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "bignumber.js": "^4.0.3",
+    "ethereumjs-testrpc": "^4.1.1",
+    "truffle": "^3.4.9"
+  },
+  "dependencies": {
+    "web3": "^0.20.1"
+  }
 }
