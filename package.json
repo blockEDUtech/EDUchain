@@ -2,7 +2,10 @@
   "name": "educhain",
   "version": "0.0.1",
   "description": "educhain ",
-  "main": "truffle.js",
+  "bin": {
+    "edu": "cli/bin.js"
+  },
+  "main": "lib/educhain.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -28,6 +31,8 @@
     "truffle": "^3.4.9"
   },
   "dependencies": {
+    "commander": "^2.11.0",
+    "os": "^0.1.1",
     "web3": "^0.20.1"
   }
 }
