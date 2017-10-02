@@ -13,7 +13,7 @@ function prompt(question, callback) {
 }
 
 module.exports = function init() {
-	prompt('Whats your name?', (input) => {
+  prompt('Whats your name?', (input) => {
     console.log(input);
     //process.exit();
   })
